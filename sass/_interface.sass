@@ -1,0 +1,29 @@
+.btn
+  width: 182px
+  height: 43px
+  border: none
+  border-radius: 2px
+  box-sizing: border-box
+  text-transform: uppercase
+  transition: box-shadow 0.3s
+  cursor: pointer
+  background-color: #94ca2d
+  text-shadow: 0 1px 1px #578f22
+  color: #ffffff
+  font-size: 12px
+  font-weight: 700
+  line-height: 16px
+  &:hover
+    box-shadow: none
+    background-color: #ffffff
+    color: #94ca2d
+  &:active, &:focus 
+    outline: none
+label
+  &.invalid
+    position: absolute
+    margin-top: 53px
+    color: #000
+input
+  &.invalid
+    border-bottom: 1px solid   #94ca2d
