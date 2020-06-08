@@ -21,6 +21,10 @@
 body {
   overflow-x: hidden; }
 
+.container {
+  max-width: 781px;
+  padding: 0; }
+
 button:focus, button:active {
   outline: none !important; }
 
@@ -46,10 +50,6 @@ img {
 a, :before, :after, button, input {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px; } }
 
 .btn {
   width: 182px;
@@ -85,3 +85,113 @@ label.invalid {
 
 input.invalid {
   border-bottom: 1px solid   #94ca2d; }
+
+.header {
+  background: #000000;
+  height: 58px;
+  opacity: 0.62;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; }
+  .header__phone {
+    text-align: right; }
+    .header__phone a {
+      display: block; }
+      .header__phone a:hover {
+        opacity: 0.7; }
+
+.logo {
+  width: 63px;
+  height: 32px; }
+
+.navbar-brand {
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: auto;
+  padding-left: 11px;
+  line-height: 17px;
+  letter-spacing: 0.5px; }
+  .navbar-brand:hover {
+    opacity: 0.7; }
+
+.phone {
+  color: #ffffff !important;
+  font-size: 17px;
+  font-weight: 700; }
+
+.callback {
+  color: #94ca2d;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.7px; }
+
+.offer {
+  background: url(../img/fone@1.5x.jpg) no-repeat center/cover;
+  height: 461px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0; }
+  .offer__info {
+    margin-top: 11rem;
+    -webkit-animation: fadeInLeft 2s;
+    animation: fadeInLeft 2s; }
+  .offer__title {
+    text-shadow: 0 2px 0 #272b25;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    width: 490px;
+    letter-spacing: 1.1px; }
+  .offer__text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+    letter-spacing: 1.1px; }
+
+.vrboxfone {
+  padding-top: 30px;
+  width: 289px;
+  height: 175px;
+  padding-left: 0;
+  margin-left: -1.2rem; }
+
+.dinosaur {
+  position: absolute;
+  width: 340px;
+  height: 263px;
+  right: 23rem;
+  bottom: 0.5rem; }
+
+.information {
+  background-color: #f8f8f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 71px;
+  padding-bottom: 46px;
+  color: #000000; }
+  .information__title {
+    font-family: 'HelveticaNeueCyr-Roman';
+    font-size: 23px;
+    font-weight: bold; }
+  .information__text {
+    font-family: 'HelveticaNeueCyr-Roman';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px; }
+
+.equipment__title {
+  font-size: 13px;
+  font-weight: bold; }
