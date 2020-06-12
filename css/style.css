@@ -239,7 +239,8 @@ input.invalid {
 
 .opportunity {
   background-color: #fcfcf6;
-  padding-top: 60px; }
+  padding-top: 60px;
+  padding-bottom: 51px; }
   .opportunity__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -267,7 +268,13 @@ input.invalid {
     margin-left: 26px;
     margin-top: -25px; }
     .opportunity__title-travell {
-      width: 290px; }
+      width: 290px;
+      margin-top: -8px; }
+    .opportunity__title-mac {
+      margin-top: 57px; }
+    .opportunity__title-second {
+      margin-left: 0px;
+      margin-top: 28px; }
   .opportunity__text {
     font-size: 12px;
     width: 262px;
@@ -275,6 +282,13 @@ input.invalid {
     margin-top: 5px; }
     .opportunity__text-travell {
       width: 250px; }
+    .opportunity__text-second {
+      width: 258px;
+      margin-left: 34px;
+      margin-top: 5px;
+      line-height: 17px; }
+  .opportunity__second {
+    padding-top: 30px; }
 
 .film {
   width: 35px;
@@ -290,10 +304,21 @@ input.invalid {
   z-index: 1;
   position: relative; }
 
+.iPhone2 {
+  width: 361px;
+  margin-left: -45px;
+  z-index: 1;
+  position: relative; }
+
 .travell {
   width: 300px;
-  margin-left: 50px;
-  margin-top: -14px; }
+  margin-left: 42px;
+  margin-top: -23px; }
+
+.mac {
+  width: 380px;
+  margin-left: 47px;
+  margin-top: 37px; }
 
 .cube2 {
   position: absolute;
@@ -309,3 +334,89 @@ input.invalid {
   bottom: 35px;
   width: 55px;
   height: 61px; }
+
+.cube3 {
+  position: absolute;
+  left: 43px;
+  top: 106px;
+  width: 52px;
+  height: 57px;
+  z-index: 1; }
+
+.cube4 {
+  position: absolute;
+  right: 83px;
+  bottom: -2px;
+  width: 44px;
+  height: 48px; }
+
+.order {
+  background: url(../img/orderfone.png) no-repeat center/cover;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .order__title {
+    font-size: 23px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: left;
+    width: 300px;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    margin-top: 5px; }
+  .order__text {
+    background: url(../img/arrow.png) no-repeat center/cover;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: left;
+    padding: 5px;
+    margin-top: 11px;
+    width: 340px;
+    letter-spacing: 1px; }
+  .order__info {
+    margin-top: 27px; }
+    .order__info-first {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: top;
+      -ms-flex-align: top;
+      align-items: top;
+      color: #fff; }
+
+.watch {
+  width: 30px;
+  padding-right: 5px; }
+
+form {
+  border: 4px solid;
+  border-color: #21a3af;
+  border-radius: 3px;
+  background-color: black;
+  padding: 20px;
+  width: 267px;
+  margin-left: 42px;
+  margin-top: -34px; }
+
+.form-title {
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 21px; }
+
+.form-group {
+  margin-bottom: 8px; }
+
+.form-control {
+  height: 34px; }
+
+.form-callback {
+  color: #fff;
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
