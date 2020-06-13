@@ -19,16 +19,26 @@
     border: 1px solid #94ca2d
   &:active, &:focus 
     outline: none
-label
-  &.invalid
-    position: absolute
-    margin-top: 53px
-    color: #000
 input
-  &.invalid
-    border-bottom: 1px solid   #94ca2d
+  &::placeholder
+    padding-left: 10px
+    letter-spacing: 0.6px
 .colorprice
   font-size: 15px
   color: rgb(182, 25, 25)
   font-weight: bold
+section
+  padding-top: 50px
+.blocktitle
+  font-size: 28px
+  text-align: center
+  font-weight: bold
+  margin: auto
+  &::after
+    content: ''
+    display: block
+    height: 3px
+    width: 40px
+    margin: auto
+    background-color: #18a7d0
 
