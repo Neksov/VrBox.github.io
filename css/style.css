@@ -107,11 +107,12 @@ section {
   font-size: 28px;
   text-align: center;
   font-weight: bold;
-  margin: auto; }
+  margin: auto;
+  font-family: 'HelveticaNeueCyr-Roman'; }
   .blocktitle::after {
     content: '';
     display: block;
-    height: 3px;
+    height: 4px;
     width: 40px;
     margin: auto;
     background-color: #18a7d0; }
@@ -168,7 +169,8 @@ section {
   align-items: center;
   position: relative;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  padding-bottom: 39px; }
   .offer__info {
     margin-top: 11rem;
     -webkit-animation: fadeInLeft 2s;
@@ -199,7 +201,7 @@ section {
   width: 340px;
   height: 263px;
   right: 23rem;
-  bottom: 0.5rem; }
+  bottom: 1.5rem; }
 
 .information {
   background-color: #f8f8f0;
@@ -209,7 +211,7 @@ section {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 68px;
+  padding-top: 57px;
   padding-bottom: 46px;
   color: #000000; }
   .information__title {
@@ -267,8 +269,8 @@ section {
 
 .opportunity {
   background-color: #fcfcf6;
-  padding-top: 60px;
-  padding-bottom: 51px; }
+  padding-bottom: 51px;
+  padding-top: 62px; }
   .opportunity__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -301,7 +303,7 @@ section {
     .opportunity__title-mac {
       margin-top: 57px; }
     .opportunity__title-second {
-      margin-left: 0px;
+      margin-left: 47px;
       margin-top: 28px; }
   .opportunity__text {
     font-size: 12px;
@@ -312,7 +314,7 @@ section {
       width: 250px; }
     .opportunity__text-second {
       width: 258px;
-      margin-left: 34px;
+      margin-left: 80px;
       margin-top: 5px;
       line-height: 17px; }
   .opportunity__second {
@@ -334,7 +336,7 @@ section {
 
 .iPhone2 {
   width: 361px;
-  margin-left: -45px;
+  margin-left: -59px;
   z-index: 1;
   position: relative; }
 
@@ -380,8 +382,11 @@ section {
 
 .order {
   background: url(../img/orderfone.png) no-repeat center/cover;
-  padding-top: 50px;
+  padding-top: 52px;
   padding-bottom: 15px; }
+  .order__second {
+    background: url(../img/orderfone2.png) no-repeat center/cover;
+    position: relative; }
   .order__title {
     font-size: 23px;
     color: #fff;
@@ -402,7 +407,7 @@ section {
     width: 340px;
     letter-spacing: 1px; }
   .order__info {
-    margin-top: 27px; }
+    margin-top: 19px; }
     .order__info-first {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -465,9 +470,16 @@ form {
 .form-btn {
   margin-left: 17px; }
 
+.cube6 {
+  position: absolute;
+  width: 40px;
+  height: 90px;
+  top: -59px;
+  left: 0; }
+
 .work {
   background: url(../img/workfone.png) no-repeat center/cover;
-  padding-bottom: 150px; }
+  padding-bottom: 97px; }
   .work__row {
     margin-top: 45px;
     display: -webkit-box;
@@ -475,8 +487,7 @@ form {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    margin-left: 27px; }
+    align-items: center; }
     .work__row-text {
       text-align: center;
       margin-top: 10px; }
@@ -503,3 +514,249 @@ form {
   margin: auto;
   width: 40px;
   margin-top: -10px; }
+
+.compatibility {
+  padding-bottom: 46px;
+  padding-top: 59px;
+  position: relative; }
+  .compatibility__title {
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: -34px;
+    letter-spacing: 1.2px; }
+  .compatibility__img {
+    width: 85px;
+    height: 180px; }
+    .compatibility__img-android {
+      margin-left: -20px; }
+    .compatibility__img-windows {
+      margin-left: -45px; }
+  .compatibility__phone {
+    margin-top: 40px; }
+
+.firm {
+  display: block;
+  text-align: center;
+  margin-top: 2px;
+  font-size: 16px; }
+  .firm-ios {
+    margin-left: -18px; }
+  .firm-android {
+    margin-left: -60px; }
+  .firm-windows {
+    margin-left: -110px; }
+  .firm-vrboxfone2 {
+    margin-top: 12px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 15px;
+    margin-left: -10px;
+    letter-spacing: 0.5px; }
+
+.vrboxfone2 {
+  margin-top: -26px;
+  margin-left: -16px;
+  height: 176px; }
+
+.coub {
+  position: absolute;
+  top: -65px;
+  right: 0;
+  width: 50px;
+  height: 148px; }
+
+.video {
+  background: url(../img/videofone.jpg) no-repeat center/cover;
+  height: 280px; }
+  .video__title {
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+    width: 298px;
+    line-height: 31px;
+    letter-spacing: 1.7px;
+    display: block; }
+  .video__watch {
+    margin: auto;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 5px; }
+
+.play {
+  width: 64px;
+  padding-top: 7px;
+  margin: auto;
+  cursor: pointer; }
+
+.attachment {
+  padding-top: 55px;
+  background-color: #fcfcf6;
+  padding-bottom: 50px; }
+  .attachment__phone {
+    margin-top: 26px; }
+  .attachment-btn {
+    margin-top: 22px;
+    margin-left: 6px; }
+
+.phone__title {
+  font-size: 15px;
+  margin-top: 23px;
+  letter-spacing: 0.5px; }
+
+.phone__titleblaster {
+  font-size: 15px;
+  margin-top: 14px;
+  letter-spacing: 0.5px; }
+
+.phone__text {
+  font-size: 12px;
+  margin-top: 7px;
+  line-height: 16px; }
+
+.icon {
+  width: 30px;
+  margin: 5px;
+  margin-top: 23px; }
+
+.blaster {
+  margin-top: 18px;
+  width: 279px;
+  height: 98px;
+  margin-left: -74px; }
+
+.titans {
+  width: 267px;
+  height: 106px;
+  margin-left: -68px; }
+
+.sisters {
+  width: 267px;
+  height: 106px;
+  margin-left: -79px; }
+
+.reviews {
+  padding-top: 57px;
+  position: relative; }
+
+.cards {
+  margin-top: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 10px; }
+
+.card {
+  border: 1px solid #41b3b3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 23px;
+  width: 391px;
+  height: 225px;
+  margin-top: 4px;
+  margin-left: -10px; }
+  .card__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .card__title {
+    padding-left: 16px;
+    font-size: 12px;
+    width: 143px;
+    line-height: 16px;
+    letter-spacing: -0.1px; }
+  .card__text {
+    margin-top: 10px;
+    font-size: 11px;
+    letter-spacing: 0.3px; }
+
+.foto {
+  width: 80px;
+  margin-top: -6px; }
+
+.cube5 {
+  position: absolute;
+  width: 129px;
+  height: 116px;
+  top: 94px;
+  right: 178px; }
+
+.plan {
+  padding-top: 106px;
+  padding-bottom: 55px; }
+  .plan__images {
+    height: 73px;
+    width: 97px; }
+    .plan__images-truck {
+      width: 51px; }
+    .plan__images-purse {
+      width: 67px; }
+  .plan__blog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 63px; }
+  .plan__text {
+    text-align: center;
+    width: 165px;
+    line-height: 14px;
+    margin-top: 10px;
+    letter-spacing: 0.5px; }
+
+.question {
+  padding-top: 27px;
+  padding-bottom: 30px; }
+  .question__info {
+    margin: auto;
+    text-align: center; }
+  .question__title {
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-family: 'HelveticaNeueCyr-Roman'; }
+  .question__text {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    width: 71%;
+    margin: auto;
+    border-bottom: 2px dashed; }
+
+.footer {
+  background-color: #000000; }
+
+.formModal {
+  margin: auto; }
+
+.modal-content {
+  width: 267px;
+  position: relative;
+  margin: auto;
+  top: 100px; }
+
+.modal__close {
+  position: absolute;
+  right: -25px;
+  top: -23px;
+  width: 28px;
+  height: 28px;
+  background: transparent url(../img/close.png) no-repeat center;
+  border: none;
+  margin: 12px;
+  cursor: pointer; }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="utf-8" />
@@ -38,7 +38,7 @@
             VR Box II от производителя за 2390 р!
           </h1>
           <p class="offer__text">Бесплатная доставка по Москве! </p>
-          <button class="btn" type="button">Заказать vr box 2</button>
+          <button class="btn" type="button" data-toggle="modal" data-target="#exampleModal">Заказать vr box 2</button>
         </div>
         <img src="img/vrboxfone@1.5x.png" alt="vrboxfone" class="vrboxfone">
         <img src="img/dinosaur.png" alt="dinosaur" class="dinosaur">
@@ -50,9 +50,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7 col-md-7">
-            <div class="information__title">
+            <h1 class="information__title">
               Что такое vr box 2
-            </div>
+            </h1>
             <div class="information__text">
               Это специальное устройство, в которое вставляется смартфон. Очки одеваются на голову и крепко фиксируются.
               С их помощью вы можете целиком погрузиться в мир виртуальной реальности в любом удобном для вас месте. С
@@ -83,7 +83,8 @@
                 </div>
               </div>
             </div>
-            <button class="btn equipment-btn" type="button">выбрать комплектацию и Заказать vr box 2 </button>
+            <button class="btn equipment-btn" type="button" data-toggle="modal" data-target="#exampleModal">выбрать
+              комплектацию и Заказать vr box 2 </button>
 
           </div>
           <div class="col-lg-5 col-md-5 information__img">
@@ -167,11 +168,10 @@
                 и нажмите заказать
               </h3>
               <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="Введите имя">
+                <input type="text" class="form-control" id="exampleInputName" placeholder="Введите имя">
               </div>
               <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Введите телефон">
+                <input type="text" class="form-control" id="exampleInputPhone" placeholder="Введите телефон">
               </div>
               <button type="submit" class="btn form-btn">Заказать vr box 2</button>
               <span class="form-callback">Перезвоним в течение 10 минут</span>
@@ -222,9 +222,9 @@
     <section class="work">
       <div class="container">
         <div class="row">
-          <div class="blocktitle">
+          <h1 class="blocktitle">
             Как это работает
-          </div>
+          </h1>
         </div>
         <div class="row work__row">
           <div class="col-lg-3 col-md-3 work__row-foto">
@@ -260,14 +260,334 @@
     </section>
     <!-- /.work -->
     <section class="compatibility">
-      <div class="conyainer">
+      <div class="container">
         <div class="row">
-
+          <h1 class="compatibility__title">
+            Совместимость очков
+          </h1>
         </div>
+        <div class="row compatibility__phone">
+          <div class="col-lg-2 col-md-2">
+            <img src="img/ios.png" alt="ios" class="compatibility__img">
+            <span class="firm firm-ios">ios</span>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <img src="img/android.png" alt="android" class="compatibility__img compatibility__img-android">
+            <span class="firm firm-android">android</span>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <img src="img/windows.png" alt="windows" class="compatibility__img compatibility__img-windows">
+            <span class="firm firm-windows">windows</span>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <img src="img/vrboxfone2.png" alt="vrboxfone" class="vrboxfone2">
+            <span class="firm firm-vrboxfone2">VR BOX-2 подойдет для любой модели смартфона с диагональю экрана от 3.5
+              до 6 люйдмов.
+            </span>
+          </div>
+        </div>
+        <img src="img/coub.png" alt="coub" class="coub">
       </div>
     </section>
     <!-- /.compatibility -->
+    <section class="video" id="player">
+      <div class="container">
+        <div class="row">
+          <h1 class="video__title">
+            Виртуальная реальность
+            в очках vr box
+          </h1>
+        </div>
+        <div class="row">
+          <a class="play lazyload" data-fancybox href="https://youtu.be/3WSy7kbyG7o">
+            <img src="img/play.png" alt="play" class="play">
+          </a>
+        </div>
+        <div class="row">
+          <p class="video__watch">
+            Смотреть видео
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- /.video -->
+    <section class="attachment">
+      <div class="container">
+        <div class="row">
+          <div class="blocktitle">
+            Более 100 игр и приложений для VR BOX II
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <img src="img/apple_app_store_vector_socialnetwork_19995.png" alt="icon" class="icon">
+          <img src="img/1492616988-12-play-store-google-android-game-service-marketplace_83394.png" alt="icon"
+            class="icon">
+          <img src="img/windows-icon.png" alt="icon" class="icon">
+        </div>
+        <div class="row attachment__phone">
+          <div class="col-lg-4 col-md-4">
+            <img src="img/iPhone 6S Gold.png" alt="iphone" class="titans">
+            <h3 class="phone__title">
+              Titans of Space
+            </h3>
+            <div class="phone__text">
+              Бесплатное приложение «Titans of Space» позволит вам совершить виртуальную поездку по нашей солнечной
+              системе. При этом вы получите много интересной информации о небесных телах.
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <img src="img/blaster.png" alt="blaster" class="blaster">
+            <h3 class="phone__titleblaster">
+              Zombie Shooter
+            </h3>
+            <div class="phone__text">
+              Одна из популярных игр «Zombie Shooter VR» В ней вы истребляете полчища зомби, исследуете темные пещеры и
+              заброшенные шахты.
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <img src="img/iPhone 6S Gold Second.png" alt="iphone" class="sisters">
+            <h3 class="phone__title">
+              Sisters
+            </h3>
+            <div class="phone__text">
+              Игра «Sisters» имеет форму интерактивного фильма ужасов для Android-устройств: вы находитесь в гостиной,
+              где можете осмотреться. При этом вокруг вас происходят странные вещи.
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <button type="submit" class="btn attachment-btn" data-toggle="modal" data-target="#exampleModal">Заказать vr
+            box 2</button>
+        </div>
+      </div>
+    </section>
+    <!-- /.attachment -->
+    <section class="reviews">
+      <div class="container">
+        <div class="row">
+          <div class="blocktitle">
+            Отзывы довольных клиентов
+          </div>
+        </div>
+        <div class="row">
+          <div class="cards">
+            <div class="col-lg-6 col-md-6">
+              <div class="card">
+                <div class="card__info">
+                  <img src="img/foto.png" alt="foto" class="foto">
+                  <span class="card__title">
+                    Дмитрий Фомин. 30 лет г. Санкт-Петербург
+                  </span>
+                </div>
+                <div class="card__text">
+                  Пришло очень быстро! Сами очки отличного качества, сразу же опробывал на Самсунг С6 эдж. Всё отлично
+                  работает, смарт тянет хорошо. В ПлэйМаркет просто ищешь приложения с VR и всё. Джойстик подключил по
+                  блютус. Качество отличное на мой взгляд! Виртуальная реальность это круто!!!
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="card">
+                <div class="card__info">
+                  <img src="img/foto.png" alt="foto" class="foto">
+                  <span class="card__title">
+                    Дмитрий Фомин. 30 лет г. Санкт-Петербург
+                  </span>
+                </div>
+                <div class="card__text">
+                  Пришло очень быстро! Сами очки отличного качества, сразу же опробывал на Самсунг С6 эдж. Всё отлично
+                  работает, смарт тянет хорошо. В ПлэйМаркет просто ищешь приложения с VR и всё. Джойстик подключил по
+                  блютус. Качество отличное на мой взгляд! Виртуальная реальность это круто!!!
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="card">
+                <div class="card__info">
+                  <img src="img/foto.png" alt="foto" class="foto">
+                  <span class="card__title">
+                    Дмитрий Фомин. 30 лет г. Санкт-Петербург
+                  </span>
+                </div>
+                <div class="card__text">
+                  Пришло очень быстро! Сами очки отличного качества, сразу же опробывал на Самсунг С6 эдж. Всё отлично
+                  работает, смарт тянет хорошо. В ПлэйМаркет просто ищешь приложения с VR и всё. Джойстик подключил по
+                  блютус. Качество отличное на мой взгляд! Виртуальная реальность это круто!!!
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="card">
+                <div class="card__info">
+                  <img src="img/foto.png" alt="foto" class="foto">
+                  <span class="card__title">
+                    Дмитрий Фомин. 30 лет г. Санкт-Петербург
+                  </span>
+                </div>
+                <div class="card__text">
+                  Пришло очень быстро! Сами очки отличного качества, сразу же опробывал на Самсунг С6 эдж. Всё отлично
+                  работает, смарт тянет хорошо. В ПлэйМаркет просто ищешь приложения с VR и всё. Джойстик подключил по
+                  блютус. Качество отличное на мой взгляд! Виртуальная реальность это круто!!!
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <img src="img/cube5.png" alt="cube" class="cube5">
+        </div>
+      </div>
+    </section>
+    <!-- /.reviews -->
+    <section class="plan">
+      <div class="container">
+        <div class="row">
+          <div class="blocktitle">
+            Как мы работаем
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <div class="plan__blog">
+              <img src="img/comp.png" alt="comp" class="plan__images">
+              <span class="plan__text">Вы оставляете заявку на нашем сайте либо по телефону:
+                +79104551703
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="plan__blog">
+              <img src="img/phone.png" alt="phone" class="plan__images">
+              <span class="plan__text">Мы связываемся с вами,
+                подтверждаем ваш заказ.
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="plan__blog">
+              <img src="img/truck.png" alt="truck" class="plan__images-truck">
+              <span class="plan__text">Мы организовываем доставку
+                по всей России либо вы забираете самовывозом. (возможно только в Москве)
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="plan__blog">
+              <img src="img/purse.png" alt="purse" class="plan__images-purse">
+              <span class="plan__text">Вы оплачиваете заказ
+                при получении.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.plan -->
+    <section class="order order__second">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="order__title">Закажите VR BOX II
+              прямо сейчас</div>
+            <div class="order__text">Только мы сотрудничаем с производителем
+              и осуществляем прямые поставки с производства</div>
+            <div class="row order__info">
+              <div class="col-lg-5 col-md-5">
+                <div class="order__info-first">
+                  <img src="img/watch.png" alt="watch" class="watch">
+                  <p>Принимаем заявки
+                    24 часа в сутки!
+                    7 дней в неделю!</p>
+                </div>
+              </div>
+              <div class="col-lg-6  col-md-6">
+                <div class="order__info-second">
+                  <img src="img/bag.png" alt="watch" class="watch">
+                  <p>Быстрая доставка и
+                    оплата при получении!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offset-lg-1 offset-md-1 col-lg-5 col-md-5">
+            <form>
+              <h3 class="form-title">
+                Введите ваши данные
+                и нажмите заказать
+              </h3>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputName" placeholder="Введите имя">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputPhone" placeholder="Введите телефон">
+              </div>
+              <button type="submit" class="btn form-btn">Заказать vr box 2</button>
+              <span class="form-callback">Перезвоним в течение 10 минут</span>
+            </form>
+          </div>
+        </div>
+        <img src="img/cube6.png" alt="cube" class="cube6">
+      </div>
+    </section>
+    <!-- /.order -->
+    <section class="question">
+      <div class="container">
+        <div class="row">
+          <div class="question__info">
+            <div class="question__title">Остались вопросы?</div>
+            <div class="question__text">Задайте их нашему менеджеру</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.question -->
   </main>
+  <footer class="footer">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <img src="img/Logo.png" alt="logo" class="logo">
+        <a class="navbar-brand" href="index.html">Производство и продажа
+          VR очков.<br>Доставка по всей России.</a>
+        <div class="header__phone">
+          <a href="tel:+79104551703 " class="phone">+79104551703 </a>
+          <a href="#" class="callback">Заказать звонок</a>
+        </div>
+      </div>
+    </nav>
+    <!-- /.container -->
+  </footer>
+  <!-- /модальное окно -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close"></button>
+        <form class="formModal">
+          <h3 class="form-title">
+            Введите ваши данные
+            и нажмите заказать
+          </h3>
+          <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputName" placeholder="Введите имя">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputPhone" placeholder="Введите телефон">
+          </div>
+          <div class="form-group">
+            <select class="form-control">
+              <option>С Bluetooch пультом</option>
+              <option>Без Bluetooch пульта</option>
+            </select>
+          </div>
+          <button type="submit" class="btn form-btn">Заказать vr box 2</button>
+          <span class="form-callback">Перезвоним в течение 10 минут</span>
+        </form>
+      </div>
+    </div>
+  </div>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
