@@ -201,7 +201,9 @@ section {
   width: 340px;
   height: 263px;
   right: 23rem;
-  bottom: 1.5rem; }
+  bottom: 1.5rem;
+  -webkit-animation: zoomIn 2s;
+  animation: zoomIn 2s; }
 
 .information {
   background-color: #f8f8f0;
@@ -259,7 +261,7 @@ section {
     border-radius: 3px;
     -webkit-box-shadow: 0px 4px 0px 0px rgba(118, 174, 12, 0.1);
     box-shadow: 0px 4px 0px 0px rgba(118, 174, 12, 0.1);
-    width: 340px;
+    width: 350px;
     height: 46px;
     margin-top: 19px;
     letter-spacing: 0.8px; }
@@ -322,33 +324,43 @@ section {
 
 .film {
   width: 35px;
+  height: 30px;
   padding-right: 7px; }
 
 .globe {
   width: 35px;
+  height: 30px;
   padding-right: 7px; }
 
 .iPhone {
   width: 300px;
   margin-left: -10px;
   z-index: 1;
-  position: relative; }
+  position: relative;
+  -webkit-animation: fadeInLeft 2s;
+  animation: fadeInLeft 2s; }
 
 .iPhone2 {
   width: 361px;
   margin-left: -59px;
   z-index: 1;
-  position: relative; }
+  position: relative;
+  -webkit-animation: fadeInLeft 2s;
+  animation: fadeInLeft 2s; }
 
 .travell {
   width: 300px;
   margin-left: 42px;
-  margin-top: -23px; }
+  margin-top: -23px;
+  -webkit-animation: fadeInRight 2s;
+  animation: fadeInRight 2s; }
 
 .mac {
   width: 380px;
   margin-left: 47px;
-  margin-top: 37px; }
+  margin-top: 37px;
+  -webkit-animation: fadeInRight 2s;
+  animation: fadeInRight 2s; }
 
 .cube2 {
   position: absolute;
@@ -356,14 +368,18 @@ section {
   top: 110px;
   width: 20px;
   height: 29px;
-  z-index: 0; }
+  z-index: 0;
+  -webkit-animation: zoomIn 5s;
+  animation: zoomIn 5s; }
 
 .cube1 {
   position: absolute;
   right: 7px;
   bottom: 35px;
   width: 55px;
-  height: 61px; }
+  height: 61px;
+  -webkit-animation: zoomIn 5s;
+  animation: zoomIn 5s; }
 
 .cube3 {
   position: absolute;
@@ -371,22 +387,30 @@ section {
   top: 106px;
   width: 52px;
   height: 57px;
-  z-index: 1; }
+  z-index: 1;
+  -webkit-animation: zoomIn 5s;
+  animation: zoomIn 5s; }
 
 .cube4 {
   position: absolute;
   right: 83px;
   bottom: -2px;
   width: 44px;
-  height: 48px; }
+  height: 48px;
+  -webkit-animation: zoomIn 5s;
+  animation: zoomIn 5s; }
 
 .order {
   background: url(../img/orderfone.png) no-repeat center/cover;
   padding-top: 52px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  -webkit-animation: fadeInRight 2s;
+  animation: fadeInRight 2s; }
   .order__second {
     background: url(../img/orderfone2.png) no-repeat center/cover;
-    position: relative; }
+    position: relative;
+    -webkit-animation: fadeInRight 2s;
+    animation: fadeInRight 2s; }
   .order__title {
     font-size: 23px;
     color: #fff;
@@ -428,6 +452,7 @@ section {
 
 .watch {
   width: 30px;
+  height: 25px;
   padding-right: 5px; }
 
 form {
@@ -490,7 +515,8 @@ form {
     align-items: center; }
     .work__row-text {
       text-align: center;
-      margin-top: 10px; }
+      margin-top: 10px;
+      width: 170px; }
     .work__row-foto {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -644,19 +670,12 @@ form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 10px; }
 
 .card {
   border: 1px solid #41b3b3;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding: 23px;
   width: 391px;
   height: 225px;
@@ -701,6 +720,10 @@ form {
       width: 51px; }
     .plan__images-purse {
       width: 67px; }
+  .plan__phone {
+    color: #000000; }
+    .plan__phone:hover {
+      color: #000000; }
   .plan__blog {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -712,7 +735,9 @@ form {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 63px; }
+    margin-top: 63px;
+    -webkit-animation: zoomIn 2s;
+    animation: zoomIn 2s; }
   .plan__text {
     text-align: center;
     width: 165px;
@@ -739,7 +764,9 @@ form {
     border-bottom: 2px dashed; }
 
 .footer {
-  background-color: #000000; }
+  background-color: #000000;
+  -webkit-animation: slideInUp 4s;
+  animation: slideInUp 4s; }
 
 .formModal {
   margin: auto; }
@@ -760,3 +787,50 @@ form {
   border: none;
   margin: 12px;
   cursor: pointer; }
+
+#button-up {
+  display: none;
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+  color: #94ca2d;
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-size: 15px;
+  z-index: 50; }
+  #button-up img {
+    width: 50px;
+    height: 50px; }
+  #button-up:hover {
+    cursor: pointer;
+    opacity: 1; }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .dinosaur {
+    right: 4rem; }
+  .cube5 {
+    right: 20px; } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    padding: 10px; }
+  .dinosaur {
+    right: 4rem;
+    width: 300px;
+    height: 230px; }
+  .cube5 {
+    right: 20px;
+    width: 80px;
+    height: 84px; }
+  form {
+    margin-left: 0; }
+  .mac {
+    margin-left: 20px; }
+  .card {
+    width: 370px; }
+  .plan {
+    padding-top: 0; }
+  .cube1 {
+    right: 30px; } }

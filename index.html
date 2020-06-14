@@ -60,7 +60,7 @@
               Смотреть любые видео с YouTube и многое другое!
             </div>
             <div class="row equipment">
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6">
                 <div class="first">
                   <div class="equipment__title">Комплектация 1:</div>
                   <p><span class="equipment__item">-</span>Очки VR Box 2</p>
@@ -70,7 +70,7 @@
                   <div class="equipment__price">Цена без пульта: <span class="colorprice">2390 руб.</span> </div>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6">
                 <div class="second">
                   <div class="equipment__title">Комплектация 2:</div>
                   <p><span class="equipment__item">-</span>Очки VR Box 2</p>
@@ -168,10 +168,10 @@
                 и нажмите заказать
               </h3>
               <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputName" placeholder="Введите имя">
+                <input type="text" class="form-control" placeholder="Введите имя">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputPhone" placeholder="Введите телефон">
+                <input type="text" class="form-control" placeholder="Введите телефон">
               </div>
               <button type="submit" class="btn form-btn">Заказать vr box 2</button>
               <span class="form-callback">Перезвоним в течение 10 минут</span>
@@ -326,13 +326,13 @@
         </div>
         <div class="row attachment__phone">
           <div class="col-lg-4 col-md-4">
-            <img src="img/iPhone 6S Gold.png" alt="iphone" class="titans">
+            <img src="img/iPhone6SGold.png" alt="iphone" class="titans">
             <h3 class="phone__title">
               Titans of Space
             </h3>
             <div class="phone__text">
               Бесплатное приложение «Titans of Space» позволит вам совершить виртуальную поездку по нашей солнечной
-              системе. При этом вы получите много интересной информации о небесных телах.
+              системе. При этом вы получите много интересной информации о небесных телах.
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
@@ -346,12 +346,12 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
-            <img src="img/iPhone 6S Gold Second.png" alt="iphone" class="sisters">
+            <img src="img/iPhone6SGoldSecond.png" alt="iphone" class="sisters">
             <h3 class="phone__title">
               Sisters
             </h3>
             <div class="phone__text">
-              Игра «Sisters» имеет форму интерактивного фильма ужасов для Android-устройств: вы находитесь в гостиной,
+              Игра «Sisters» имеет форму интерактивного фильма ужасов для Android-устройств: вы находитесь в гостиной,
               где можете осмотреться. При этом вокруг вас происходят странные вещи.
             </div>
           </div>
@@ -366,9 +366,9 @@
     <section class="reviews">
       <div class="container">
         <div class="row">
-          <div class="blocktitle">
+          <h1 class="blocktitle">
             Отзывы довольных клиентов
-          </div>
+          </h1>
         </div>
         <div class="row">
           <div class="cards">
@@ -444,16 +444,16 @@
     <section class="plan">
       <div class="container">
         <div class="row">
-          <div class="blocktitle">
+          <h1 class="blocktitle">
             Как мы работаем
-          </div>
+          </h1>
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-3">
             <div class="plan__blog">
               <img src="img/comp.png" alt="comp" class="plan__images">
               <span class="plan__text">Вы оставляете заявку на нашем сайте либо по телефону:
-                +79104551703
+                <a href="tel:+79104551703 " class="plan__phone">+79104551703</a>
               </span>
             </div>
           </div>
@@ -518,10 +518,10 @@
                 и нажмите заказать
               </h3>
               <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputName" placeholder="Введите имя">
+                <input type="text" class="form-control" placeholder="Введите имя">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputPhone" placeholder="Введите телефон">
+                <input type="text" class="form-control" placeholder="Введите телефон">
               </div>
               <button type="submit" class="btn form-btn">Заказать vr box 2</button>
               <span class="form-callback">Перезвоним в течение 10 минут</span>
@@ -536,7 +536,7 @@
       <div class="container">
         <div class="row">
           <div class="question__info">
-            <div class="question__title">Остались вопросы?</div>
+            <h1 class="question__title">Остались вопросы?</h1>
             <div class="question__text">Задайте их нашему менеджеру</div>
           </div>
         </div>
@@ -559,7 +559,7 @@
     <!-- /.container -->
   </footer>
   <!-- /модальное окно -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -587,7 +587,11 @@
       </div>
     </div>
   </div>
-
+  <div class="buttonUp">
+    <span id="button-up">
+      <img src="img/angle-up-solid.svg" alt="up" />
+    </span>
+  </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
