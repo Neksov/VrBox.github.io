@@ -108,7 +108,8 @@ section {
   text-align: center;
   font-weight: bold;
   margin: auto;
-  font-family: 'HelveticaNeueCyr-Roman'; }
+  font-family: 'HelveticaNeueCyr-Roman';
+  position: relative; }
   .blocktitle::after {
     content: '';
     display: block;
@@ -813,7 +814,9 @@ form {
   .cube5 {
     right: 20px; } }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section {
+    padding: 0px; }
   .container {
     padding: 10px; }
   .dinosaur {
@@ -833,4 +836,79 @@ form {
   .plan {
     padding-top: 0; }
   .cube1 {
-    right: 30px; } }
+    right: 30px; }
+  .opportunity {
+    padding-top: 0px; }
+  .reviews {
+    padding-top: 0px; } }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  section {
+    padding: 0px; }
+  .container {
+    padding: 10px; }
+  .dinosaur {
+    right: 4rem;
+    width: 200px;
+    height: 160px; }
+  .vrboxfone {
+    width: 230px;
+    height: 140px; }
+  .blocktitle {
+    width: 400px; }
+  .information__img {
+    margin-top: 72px; }
+  .cube5 {
+    right: 20px;
+    width: 80px;
+    height: 84px; }
+  .cube2 {
+    left: 170px; }
+  form {
+    margin-left: 0; }
+  .mac {
+    margin-left: 20px; }
+  .card {
+    width: 370px; }
+  .plan {
+    padding-top: 0; }
+  .cube1 {
+    right: 25px;
+    top: 117px; }
+  .iPhone {
+    width: 260px; }
+  .iPhone2 {
+    width: 340px;
+    margin-left: -110px; }
+  .mac {
+    width: 300px;
+    margin-left: 0; }
+  .travell {
+    width: 260px;
+    margin-left: 0px; }
+  .opportunity {
+    padding-top: 0px; }
+    .opportunity__info {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .opportunity__text {
+      margin-left: 29px; }
+    .opportunity__title-second {
+      margin-left: 29px; }
+  .reviews {
+    padding-top: 0px; }
+  .cards {
+    margin: auto;
+    display: block; }
+  .phone__title, .phone__text, .phone__titleblaster {
+    text-align: center;
+    width: 420px;
+    margin: auto;
+    padding: 10px; }
+  .sisters, .blaster, .titans {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    padding: 0; } }
