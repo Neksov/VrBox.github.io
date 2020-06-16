@@ -846,7 +846,7 @@ form {
   section {
     padding: 0px; }
   .container {
-    padding: 10px; }
+    padding: 0px 10px 0px 10px; }
   .dinosaur {
     right: 4rem;
     width: 200px;
@@ -862,10 +862,36 @@ form {
     right: 20px;
     width: 80px;
     height: 84px; }
+  .coub {
+    width: 35px;
+    height: 100px; }
   .cube2 {
     left: 170px; }
+  .order__info {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+    .order__info-first {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .order__info-second {
+      margin-left: 0;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+  .order__text {
+    margin: auto; }
+  .order__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px; }
   form {
-    margin-left: 0; }
+    margin: auto; }
   .mac {
     margin-left: 20px; }
   .card {
@@ -896,6 +922,10 @@ form {
       margin-left: 29px; }
     .opportunity__title-second {
       margin-left: 29px; }
+  .work {
+    padding-bottom: 65px; }
+    .work__row-foto {
+      margin-top: 10px; }
   .reviews {
     padding-top: 0px; }
   .cards {
@@ -907,8 +937,36 @@ form {
     margin: auto;
     padding: 10px; }
   .sisters, .blaster, .titans {
+    margin-left: 120px; }
+  .video {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .compatibility {
+    padding-top: 25px; }
+    .compatibility__phone-posicion {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .compatibility__img-android, .compatibility__img-windows {
+      margin-left: 0; }
+  .firm-ios, .firm-android, .firm-windows {
+    margin: auto; }
+  .vrboxfone2 {
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 20px; }
+  .firm-vrboxfone2 {
+    width: 400px;
     margin: auto;
-    padding: 0; } }
+    text-align: center; } }
