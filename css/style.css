@@ -897,15 +897,17 @@ form {
   .card {
     width: 370px; }
   .plan {
-    padding-top: 0; }
+    padding-top: 20px; }
+    .plan__blog {
+      margin-top: 30px; }
   .cube1 {
     right: 25px;
     top: 117px; }
   .iPhone {
     width: 260px; }
   .iPhone2 {
-    width: 340px;
-    margin-left: -110px; }
+    width: 270px;
+    margin-left: -70px; }
   .mac {
     width: 300px;
     margin-left: 0; }
@@ -918,6 +920,181 @@ form {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; }
+    .opportunity__text {
+      margin-left: 29px; }
+    .opportunity__title-second {
+      margin-left: 29px; }
+  .work {
+    padding-bottom: 65px; }
+    .work__row-foto {
+      margin-top: 10px; }
+  .reviews {
+    padding-top: 0px; }
+  .cards {
+    margin: auto;
+    display: block; }
+  .phone__title, .phone__text, .phone__titleblaster {
+    text-align: center;
+    width: 420px;
+    margin: auto;
+    padding: 10px; }
+  .sisters, .blaster, .titans {
+    margin-left: 120px; }
+  .video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .compatibility {
+    padding-top: 25px; }
+    .compatibility__phone-posicion {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .compatibility__img-android, .compatibility__img-windows {
+      margin-left: 0; }
+  .firm-ios, .firm-android, .firm-windows {
+    margin: auto; }
+  .vrboxfone2 {
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 20px; }
+  .firm-vrboxfone2 {
+    width: 400px;
+    margin: auto;
+    text-align: center; } }
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  section {
+    padding: 0px; }
+  .container {
+    padding: 0px 10px 0px 10px; }
+  .header {
+    height: 95px; }
+    .header__phone {
+      margin: auto;
+      padding-top: 10px; }
+      .header__phone a {
+        display: inline; }
+  .navbar-brand {
+    font-size: 12px; }
+  .offer {
+    overflow: hidden; }
+    .offer__title {
+      width: 306px;
+      font-size: 20px;
+      margin-bottom: 20px; }
+    .offer__text {
+      display: none; }
+  .dinosaur {
+    right: -3rem;
+    width: 200px;
+    height: 160px; }
+  .vrboxfone {
+    width: 173px;
+    height: 114px; }
+  .blocktitle {
+    width: 400px; }
+  .information__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
+  .information__img {
+    margin: auto;
+    width: 300px;
+    height: 200px; }
+  .information__text {
+    width: 300px; }
+  .equipment-btn {
+    width: 300px;
+    font-size: 10px; }
+  .cube5 {
+    right: 20px;
+    width: 80px;
+    height: 84px; }
+  .coub {
+    width: 35px;
+    height: 100px; }
+  .cube2 {
+    left: 170px; }
+  .order__info {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+    .order__info-first {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .order__info-second {
+      margin-left: 0;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+  .order__text {
+    background: url(../img/arrow2.png) no-repeat center/cover;
+    height: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 298px; }
+  .order__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px; }
+  form {
+    margin: auto; }
+  .mac {
+    margin-left: 20px; }
+  .card {
+    width: 370px; }
+  .plan {
+    padding-top: 20px; }
+    .plan__blog {
+      margin-top: 30px; }
+  .cube1 {
+    display: none; }
+  .iPhone {
+    width: 100%;
+    margin: auto; }
+  .iPhone2 {
+    width: 270px;
+    margin-left: -70px; }
+  .mac {
+    width: 300px;
+    margin-left: 0; }
+  .travell {
+    width: 260px;
+    margin-left: 0px;
+    margin-bottom: 30px; }
+  .opportunity {
+    padding-top: 20px; }
+    .opportunity__info {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .opportunity__info-travell {
+        margin-top: 30px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse; }
     .opportunity__text {
       margin-left: 29px; }
     .opportunity__title-second {
