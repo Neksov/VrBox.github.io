@@ -818,7 +818,7 @@ form {
   section {
     padding: 0px; }
   .container {
-    padding: 10px; }
+    padding: 0px 10px 0px 10px; }
   .dinosaur {
     right: 4rem;
     width: 300px;
@@ -906,7 +906,7 @@ form {
   .iPhone {
     width: 260px; }
   .iPhone2 {
-    width: 270px;
+    width: 250px;
     margin-left: -70px; }
   .mac {
     width: 300px;
@@ -921,9 +921,11 @@ form {
       -ms-flex-pack: center;
       justify-content: center; }
     .opportunity__text {
-      margin-left: 29px; }
-    .opportunity__title-second {
-      margin-left: 29px; }
+      margin-left: 0; }
+    .opportunity__title {
+      margin-left: 0; }
+      .opportunity__title-second {
+        margin-left: 29px; }
   .work {
     padding-bottom: 65px; }
     .work__row-foto {
