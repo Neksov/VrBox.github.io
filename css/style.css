@@ -1002,10 +1002,11 @@ form {
     width: 200px;
     height: 160px; }
   .vrboxfone {
-    width: 173px;
-    height: 114px; }
+    width: 153px;
+    height: 100px; }
   .blocktitle {
-    width: 400px; }
+    width: 300px;
+    font-size: 20px; }
   .information__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1021,12 +1022,11 @@ form {
     width: 300px;
     font-size: 10px; }
   .cube5 {
-    right: 20px;
-    width: 80px;
-    height: 84px; }
+    display: none; }
   .coub {
     width: 35px;
-    height: 100px; }
+    height: 100px;
+    top: 50px; }
   .cube2 {
     left: 170px; }
   .order__info {
@@ -1065,7 +1065,7 @@ form {
   .mac {
     margin-left: 20px; }
   .card {
-    width: 370px; }
+    width: 300px; }
   .plan {
     padding-top: 20px; }
     .plan__blog {
@@ -1077,13 +1077,12 @@ form {
     margin: auto; }
   .iPhone2 {
     width: 270px;
-    margin-left: -70px; }
+    margin: auto; }
   .mac {
-    width: 300px;
-    margin-left: 0; }
+    width: 300px; }
   .travell {
     width: 260px;
-    margin-left: 0px;
+    margin-left: 25px;
     margin-bottom: 30px; }
   .opportunity {
     padding-top: 20px; }
@@ -1097,14 +1096,28 @@ form {
         -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse; }
+      .opportunity__info-mac {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse; }
     .opportunity__text {
       margin-left: 29px; }
     .opportunity__title-second {
       margin-left: 29px; }
+    .opportunity__title-travell {
+      margin-left: 0; }
+    .opportunity__title-mac {
+      margin-top: 20px; }
+  .cube4 {
+    display: none; }
   .work {
-    padding-bottom: 65px; }
-    .work__row-foto {
-      margin-top: 10px; }
+    padding-top: 20px;
+    padding-bottom: 100px; }
+    .work__row {
+      margin-top: 20px; }
+      .work__row-foto {
+        margin-top: 10px; }
   .reviews {
     padding-top: 0px; }
   .cards {
@@ -1112,11 +1125,11 @@ form {
     display: block; }
   .phone__title, .phone__text, .phone__titleblaster {
     text-align: center;
-    width: 420px;
+    width: 300px;
     margin: auto;
     padding: 10px; }
   .sisters, .blaster, .titans {
-    margin-left: 120px; }
+    margin: auto; }
   .video {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1142,10 +1155,10 @@ form {
   .firm-ios, .firm-android, .firm-windows {
     margin: auto; }
   .vrboxfone2 {
-    width: 400px;
+    width: 250px;
     margin-left: 0px;
     margin-top: 20px; }
   .firm-vrboxfone2 {
-    width: 400px;
+    width: 250px;
     margin: auto;
     text-align: center; } }
